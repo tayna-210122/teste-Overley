@@ -39,8 +39,16 @@ input{
     position: fixed;
     z-index: 1;
     background: rgba(0, 0, 0, 0.7);
-    display: none;
+   
 }
+.overlay{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
 .fechar{
     position: absolute;
     top: 20px;
